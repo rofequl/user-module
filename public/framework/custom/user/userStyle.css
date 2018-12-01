@@ -1,0 +1,135 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Option Plus
+    Author: Md. Nayem
+    Author URI:
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. User Menu design
+    2. User Profile Css
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  User Menu design
+/*----------------------------------------*/
+#User div div ul {
+    color: #b38c8c;
+    font-size: 14px;
+    margin-top: 100px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#User div div ul li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#User div div ul li i {
+    font-size: 17px;
+    margin-right: 2px;
+}
+
+/*----------------------------------------*/
+/*  2.
+/*----------------------------------------*/
+
+.time_info_pro_pic {
+    cursor: pointer;
+    height: 158px;
+    width: 158px;
+    margin-top: -70px;
+}
+
+.time_info_pro_pic:hover .time_info_pro_pic_upload {
+    display: block;
+}
+
+.time_info_pro_pic_upload {
+    display: none;
+    background-color: rgba(33, 33, 33, 0.78);
+    height: 145px;
+    position: absolute;
+    top: 89px;
+    width: 145px;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+.time_info_pro_pic_upload img {
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.time_info_pro_pic > img {
+    height: 155px;
+    width: 155px;
+}
+
+
+#AddUserPage > div {
+    background-color: #393939;
+    margin: 80px 20px 20px 70px;
+    border-radius: 5px;
+    border: 1px solid #393939;
+    box-shadow: 0 0 12px 1px #000202ba;
+}
+
+#AddUserPage .td-size tr td:nth-child(odd) {
+    width: 18%;
+    background-color: #232222;
+}
+
+#AddUserPage .profileTable td, .profileTable th, .useraddTable td, .useraddTable th {
+    border-top: 1px solid #5a6169;
+}
+
+.inputStyle,
+#AddUserPage .useraddTable tr td input,
+#AddUserPage .useraddTable tr td select {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 3%;
+    background: transparent;
+    border: 1px solid #8c5858;
+    width: 50%;
+    color: #ffffff;
+    font: 95% Arial, Helvetica, sans-serif;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#AddUserPage .select option {
+    background-color: #232222;
+    color: #b98888;
+}
+
+#AddUserPage .userAllert {
+    font-size: 14px;
+}
+
+#AddUserPage .btnStyle {
+    width: 98%;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

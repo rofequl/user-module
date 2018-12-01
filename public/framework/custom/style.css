@@ -1,0 +1,527 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Option Plus
+    Author: Md. Nayem
+    Author URI:
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Theme Default CSS (body, link color, section etc)
+    2.  Header top Customize CSS
+    3.  Sidebar Left Customize CSS
+    4.  Bootstrap Customize CSS
+    5.  Index Dashboard Customize CSS
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+body {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+body.darklayout {
+    background: #212121;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.nounderline:hover {
+    text-decoration: none !important
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Scroll Bar design
+/*-----------------------------------------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+    background-color: #F5F5F5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #444444;
+}
+
+/*----------------------------------------*/
+/*  2.  Header top Customize CSS
+/*----------------------------------------*/
+.logo-wrap-pro {
+    display: none;
+}
+
+#NavBar {
+    background-color: #303030 !important;
+}
+
+#NavBar .dark-btn {
+    background-color: #2b2a2a !important;
+    border-color: #2b2a2a !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.CImg {
+    width: 36px;
+    height: 36px;
+    margin: -10px 2px;
+}
+
+/*----------------------------------------*/
+/*  3.  Sidebar Left Customize CSS
+/*----------------------------------------*/
+
+#sidebar {
+    background-color: #303030 !important;
+    box-shadow: 2px 0 10px 0 #191515;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #393939;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar.toggled .sidebar-header h3 {
+    display: none;
+}
+
+#sidebar.toggled .sidebar-header strong {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .sidebar .nav-item .dropdown-menu {
+        position: absolute !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        left: calc(110px + 7.5rem) !important;
+        margin: 0;
+    }
+}
+
+/*----------------------------------------*/
+/*  4.  Bootstrap Customize CSS
+/*----------------------------------------*/
+.dropdown-item:hover {
+    background-color: #25282b !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-size: 14px !important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*----------------------------------------*/
+/*  5.  Index Dashboard Customize CSS
+/*----------------------------------------*/
+
+.bg-flat-color-1 {
+    background: #20a8d8b8;
+}
+
+.bg-flat-color-2 {
+    background: #63c2deb8;
+}
+
+.bg-flat-color-3 {
+    background: #ffc107b8;
+}
+
+.bg-flat-color-4 {
+    background: #f86c6bb8;
+}
+
+.shadow-reset {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.darklayout .income-title,
+.dashboard-line-chart,
+.income-dashone-pro,
+.darklayout .income-dashone-pro,
+.welcome-wrapper {
+    background: #393939;
+    padding: 20px;
+}
+
+.welcome-adminpro-title h1, .dash-adminpro-project-title h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.welcome-adminpro-title p, .dash-adminpro-project-title p {
+    font-size: 14px;
+}
+
+.message-list-menu li {
+    border-bottom: 1px solid #303030;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+ul.message-list-menu li .message-serial.message-cl-one {
+    background: #03a9f0;
+}
+
+ul.message-list-menu li .message-serial.message-cl-two {
+    background: #303030;
+}
+
+ul.message-list-menu li .message-serial.message-cl-three {
+    background: #1ab394;
+}
+
+ul.message-list-menu li .message-serial.message-cl-four {
+    background: #ccc;
+    color: #303030;
+}
+
+ul.message-list-menu li .message-serial.message-cl-five {
+    background: #1c84c6;
+}
+
+ul.message-list-menu li .message-serial.message-cl-five {
+    background: #1c84c6;
+}
+
+ul.message-list-menu li .message-serial {
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    background: #303030;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 0;
+}
+
+ul.message-list-menu li .message-info {
+    width: 205px;
+    display: inline-block;
+}
+
+ul.message-list-menu li .message-time {
+    text-align: right;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+.income-rate-total,
+.main-income-head {
+    position: relative;
+}
+
+.income-title h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.income-title p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    color: #fff;
+    padding: 2px 10px;
+    background: #1c84c6;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.nt-mg-b-30 {
+    margin-bottom: 30px;
+}
+
+.price-graph {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.income-range p {
+    font-size: 14px;
+    margin: 0;
+    float: left;
+}
+
+.income-range .income-percentange {
+    font-size: 14px;
+    color: #03a9f4;
+    float: right;
+}
+
+.linechart-dash-rate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linechart-dash-rate h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.linechart-dash-rate p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.clearfix, .clear {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.table-bordered, .table-bordered tr,
+.table-bordered tr td, .table-bordered thead,
+.table-bordered thead tr, .table-bordered thead th,
+.table-bordered tr th {
+    border: 1px solid #212121 !important;
+}
+
+.page-item.disabled .page-link,
+.pagination .page-link {
+    color: #a98383;
+    background-color: #393939;
+    border-color: #212121;
+}
+
+/*----------------------------------------*/
+/*  6.  User Permission page design
+/*----------------------------------------*/
+
+#UserPermission .input-group-text {
+    background-color: black;
+    border: 1px solid #000000;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    color: #c1c4c7;
+}
+
+#UserPermission #myInput {
+    background-color: black;
+    border: 1px solid #000000;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    color: #c1c4c7;
+}
+
+#UserPermission #myInput:focus {
+    box-shadow: none;
+}
+
+#UserPermission .list-group-item {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 15px 5px;
+    margin: 5px 0;
+    text-align: left;
+    box-shadow: none;
+    color: white;
+}
+
+#UserPermission .list-group-item:hover {
+    background: #100e0e;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+#UserPermission .list-group-item:focus {
+    background: #100e0e;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+.ListStyle {
+    background: #100e0e !important;
+    padding: 15px 5px !important;
+    border-radius: 15px !important;
+}
+
+/*----------------------------------------*/
+/*  7.  User Permission Switch design
+/*----------------------------------------*/
+
+/* Remember me Checkbox */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin-bottom: -4px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4f4f4f;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider i {
+    padding-left: 5px;
+    display: none;
+    color: #4bff00;
+}
+
+input:checked + .slider {
+    background-color: #305a33;;
+}
+
+input:checked + .slider i {
+    display: block;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #305a33;;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(23px);
+    -ms-transform: translateX(23px);
+    transform: translateX(23px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 12px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    max-height: 100%;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+.search {
+    background-color: inherit;
+    color: #d0d0d0;
+    border: 1px solid #131313;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 5px 7px 0;
+}
+
+.search:hover {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+}
+
+.search:hover .search-btn {
+    background-color: #333;
+}
+
+.search-input {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 0;
+    background: #dbf9f6;
+    padding: 2%;
+    height: 34px;
+    color: #333;
+    border: 1px solid rgb(128, 0, 128);
+    border-right: 0;
+    margin-top: -75px;
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 4px 4px;
+    font: 95% Arial, Helvetica, sans-serif;
+    transition: .8s;
+    display: none;
+}
+
+.search .search-btn {
+
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.search-btn-again {
+    height: 34px;
+    background-color: #dbf9f6;
+    padding: 7px;
+    margin-left: -6px;
+    color: #333;
+    box-sizing: border-box;
+    margin-top: -30px;
+    border: 1px solid #800080;
+    border-left: 0;
+    width: 30px;
+    border-top-right-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    cursor: pointer;
+}
+
+.SearchDropdown{
+
+}
